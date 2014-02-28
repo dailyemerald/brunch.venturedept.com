@@ -7,10 +7,12 @@ body {
 }
 
 img {
-	width: 100%;
+	width: 50%;
 	height: auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	display: block;
+	margin: 0 auto;
 }
 
 h1 {
@@ -27,6 +29,12 @@ h2 {
 	font-weight: 600;
 	color: #b2d236;
 	line-height: 1em;
+}
+
+.RSVPtitle h2 {
+	color: #FFF;
+	z-index: 20;
+	text-align: center;
 }
 
 .listaparttitle h2{
@@ -92,6 +100,14 @@ li {
 
 label {
 	font-weight: 400;
+}
+
+.banner {
+	background-color: #b2d236;
+	z-index: 10;
+	margin-top: 2em;
+	margin-bottom: 2em;	
+	width: 100%;
 }
 
 .ss-choices {
