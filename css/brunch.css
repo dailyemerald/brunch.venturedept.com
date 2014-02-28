@@ -7,9 +7,9 @@ body {
 }
 
 img {
-	width: 100%;
+	width: 50%;
 	height: auto;
-	position: fixed;
+	padding-top: 1em;
 }
 
 .lead-image {
@@ -33,18 +33,54 @@ h2 {
 	color: #b2d236;
 }
 
-p .sidebarfloat {
-	float: right;
+h3 {
+	font-size: 18px;
+	margin-top: 0;
+	font-weight: 400;
+	color: #b2d236;
+	line-height: 1.2em;
 }
 
-p .bodycopy {
-	float: left;
+h3 a {
+	color: #b2d236;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	text-decoration: none;
+	color: #444;
+}
+
+p a {
+	color: #b2d236;
 }
 
 .listaparttitle {
 	margin-top: -5em;
 	z-index: 100;
 	position:relative;
+}
+
+.italicsidebar {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.sessiontitle {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1em;
+	margin-top: 1.5em;
+}
+
+.presenter {
+	font-style: italic;
+	font-weight: 400;
+	margin-top: -0.3em;
+}
+
+.sessiondescription {
+	margin-top: -0.3em;
 }
 
 .bigwrapper {
