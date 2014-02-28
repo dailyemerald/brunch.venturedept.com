@@ -1,13 +1,15 @@
 body {
 	position: absolute;
-	background: #EEE;
+	background: #444;
 	width: 100%;
 	height: 100%;
+	font-family: 'Exo';
 }
 
 img {
 	width: 100%;
 	height: auto;
+	position: fixed;
 }
 
 .lead-image {
@@ -15,25 +17,47 @@ img {
 }
 
 h1 {
-	font-size: 90px;
+	font-size: 130px;
 	text-align: center;
 	margin-top: 0;
+	font-weight: 900;
+	color: #b2d236;
 }
 
-.wrapper {
-	border: 1px solid #CCC;
-	padding: 20px;
-	position: relative;
-	top: -150px;
+h2 {
+	font-size: 60px;
+	text-align: center;
+	margin-top: -0.9em;
+	font-style: italic;
+	font-weight: 600;
+	color: #b2d236;
+}
+
+p .sidebarfloat {
+	float: right;
+}
+
+p .bodycopy {
+	float: left;
+}
+
+.listaparttitle {
+	margin-top: -5em;
+	z-index: 100;
+	position:relative;
+}
+
+.bigwrapper {
+	padding: 0px;
+	top: 150px;
 	background: #FFF;
 	width: 940px;
 	margin: 0 auto;
 	max-width: 100%;
-	height: 100%;
 }
 
-iframe {
-	max-width: 100%;
+.littlewrapper {
+	padding: 0px 40px 40px 40px;
 }
 
 @media all and (max-width: 600px) {
@@ -44,3 +68,20 @@ iframe {
 		font-size: 40px;
 	}
 }
+
+/* header video */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	z-index: 10;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
