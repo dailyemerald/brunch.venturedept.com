@@ -16,6 +16,10 @@ img {
 	position: relative;
 }
 
+li {
+	list-style-type: none;
+}
+
 h1 {
 	font-size: 130px;
 	text-align: center;
@@ -26,11 +30,15 @@ h1 {
 
 h2 {
 	font-size: 60px;
-	text-align: center;
-	margin-top: -0.9em;
 	font-style: italic;
 	font-weight: 600;
 	color: #b2d236;
+	line-height: 1em;
+}
+
+.listaparttitle h2{
+	margin-top: -0.9em;
+	text-align: center;
 }
 
 h3 {
@@ -39,6 +47,7 @@ h3 {
 	font-weight: 400;
 	color: #b2d236;
 	line-height: 1.2em;
+	margin-bottom: 1em;
 }
 
 h3 a {
