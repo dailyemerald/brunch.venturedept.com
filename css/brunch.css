@@ -66,12 +66,23 @@ h3 {
 
 .millennialscallout {
 	background-color: #FFF;
+	margin: -20px;
 	padding: 20px;
-	margin-bottom: 2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	/* border: solid 3px #b2d236; */
 }
 
+.datetimecallout {
+	background-color: #FFF;
+	padding: 20px;
+}
+
 p a {
+	color: #000;
+}
+
+p a:hover {
 	color: #b2d236;
 }
 
@@ -184,13 +195,13 @@ label {
 	padding: 0px;
 	top: 150px;
 	background: #F0F0F0;
-	width: 940px;
+	width: 840px;
 	margin: 0 auto;
 	max-width: 100%;
 }
 
 .littlewrapper {
-	padding: 0px 40px 40px 40px;
+	padding: 0px 60px 60px 60px;
 }
 
 @media all and (max-width: 600px) {
