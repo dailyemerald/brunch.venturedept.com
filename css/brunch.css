@@ -95,25 +95,21 @@ p a:hover {
 }
 
 .session-number { 
-	float: left; 
 	color: #b2d236; 
 	font-size: 52px; 
 	font-weight: 800;
-	padding-top: 12px; 
-	padding-right: 12px; 
-	padding-left: 3px;
-	}
+}
 
 .sessiontitle {
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 1em;
-	margin-top: 1.5em;
+	margin-top: .5em;
 }
 
 .emojis img {
-	height: 48px;
-	width: 48px;
+	height: 38px;
+	width: 38px;
 	margin: -3px;
 	margin-bottom: .5em;
 }
@@ -126,6 +122,10 @@ p a:hover {
 
 .sessiondescription {
 	margin-top: -0.3em;
+}
+
+.sessionseparation {
+	padding-top: 2em;
 }
 
 li {
@@ -154,6 +154,14 @@ label {
 	border-color: #b2d236;
 }
 
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #dbff4c;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #dbff4c;
@@ -177,6 +185,7 @@ label {
 	font-size:17px;
 	font-weight:bold;
 	padding:6px 24px;
+	margin-top: 1em;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #484f27;
 }
@@ -233,6 +242,10 @@ label {
 	.banner h3 {
 		font-size: 16px;
 		padding-bottom: .4em;
+	}
+
+	.sessiontitle {
+	margin-top: 0em;
 	}
 
 	.RSVPtitle {
