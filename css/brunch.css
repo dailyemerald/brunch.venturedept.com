@@ -6,7 +6,7 @@ body {
 	font-family: 'Exo';
 }
 
-img {
+.about-orgs img {
 	width: 50%;
 	height: auto;
 	padding-top: 1em;
@@ -43,10 +43,10 @@ h2 {
 	text-align: center;
 }
 
-.header-shadow {
-	text-shadow: 0px 3px 2px rgba(0,0,0,0.4),
-             0px 7px 12px rgba(0,0,0,0.1),
-             0px 17px 22px rgba(0,0,0,0.1);
+.about-orgs {
+	font-size: 12px;
+	font-weight: 400;
+	padding-right: 2em;
 }
 
 h3 {
@@ -67,7 +67,7 @@ h3 {
 }
 
 .millennialscallout {
-	background-color: #FFF;
+	background-color: #F0F0F0;
 	margin: -20px;
 	padding: 20px;
 	margin-top: 10px;
@@ -76,8 +76,9 @@ h3 {
 }
 
 .datetimecallout {
-	background-color: #FFF;
+	background-color: #F0F0F0;
 	padding: 20px;
+	margin-bottom: 1em;
 }
 
 p a {
@@ -110,6 +111,13 @@ p a:hover {
 	margin-top: 1.5em;
 }
 
+.emojis img {
+	height: 48px;
+	width: 48px;
+	margin: -3px;
+	margin-bottom: .5em;
+}
+
 .presenter {
 	font-style: italic;
 	font-weight: 400;
@@ -135,9 +143,6 @@ label {
 	margin-top: 0em;
 	margin-bottom: 2em;	
 	width: 100%;
-	box-shadow: 0px 3px 2px rgba(0,0,0,0.2),
-             0px 7px 12px rgba(0,0,0,0.1),
-             0px 17px 22px rgba(0,0,0,0.1);
 }
 
 .ss-choices {
@@ -193,13 +198,10 @@ label {
 .bigwrapper {
 	padding: 0px;
 	top: 150px;
-	background: #F0F0F0;
+	background: #FFF;
 	width: 840px;
 	margin: 0 auto;
 	max-width: 100%;
-	box-shadow: 0px 3px 2px rgba(0,0,0,0.8),
-             0px 7px 12px rgba(0,0,0,0.5),
-             0px 17px 22px rgba(0,0,0,0.5);
 }
 
 .littlewrapper {
@@ -224,13 +226,22 @@ label {
 		font-size: 40px;
 	}
 
-	.listaparttitle {
-		margin-top: -3em;
+	.datetimecallout {
+		padding: 10px;
+	}
+
+	.banner h3 {
+		font-size: 16px;
+		padding-bottom: .4em;
+	}
+
+	.RSVPtitle {
+		padding-top: .05em;
+		padding-bottom: .1em;
 	}
 
 	.listaparttitle h2{
 		margin-top: -1em;
-		margin-bottom: 1em;
 	}
 
 	.littlewrapper {
