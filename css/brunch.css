@@ -86,12 +86,6 @@ p a:hover {
 	color: #b2d236;
 }
 
-.listaparttitle {
-	margin-top: -5em;
-	z-index: 100;
-	position:relative;
-}
-
 .italicsidebar {
 	font-style: italic;
 	font-weight: 400;
